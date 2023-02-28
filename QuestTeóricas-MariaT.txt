@@ -1,0 +1,25 @@
+Nome: Maria Tereza
+28/02/2023
+
+1) Em programação, o que é uma biblioteca?
+
+R: Biblioteca é o termo usado  para definir o código-fonte compilado produzido por terceiros que 
+possibilita adicionar novas funções ao código-fonte do software. Portanto, trata-se de uma coleção 
+de recursos usados por programa de computador, o que o que permite o compartilhamento e a alteração 
+de código e dados de forma modular.
+
+2) O que é a biblioteca Swing do Java e qual é o seu propósito?
+
+R: É uma biblioteca do Java para criar interfaces gráficas.É um framework que disponibiliza 
+um conjunto de elementos gráficos para ser utilizado na plataforma Java, além de ser mais flexível 
+do que a AWT e que permite uma série de configurações e ajustes que tornam a interface mais amigável para 
+o usuário, o que facilita no desenvolvimento.
+
+3) Quais são os componentes de interface gráfica de usuário (GUI) fornecidos pela biblioteca Swing para:
+
+a. Botão - JButton
+b. Campo de Texto - JTextField
+c. Caixa de Seleção - JCheckBox
+d. Barra de Progresso - ProgressBar
+e. Botão de Opção - JRadioButton
+f. Caixa de Combinação - JComboBox
