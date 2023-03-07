@@ -23,3 +23,22 @@ c. Caixa de Seleção - JCheckBox
 d. Barra de Progresso - ProgressBar
 e. Botão de Opção - JRadioButton
 f. Caixa de Combinação - JComboBox
+
+4) Quais são os propósitos dos layouts no Swing? E quais são os layouts possíveis?
+R: São fornecidos para organizar componentes GUI em um container para propósitos de apresentação
+processam a maioria dos detalhes, fornecendo uma maneira automática de posicionar os componentes gráficos nos
+containers. Todos os gerenciadores de Layout implementam a interface LayoutManager ou a subinterface LayoutManager2. 
+Cada container como um Painel ou Frame (molduras) possui um gerenciador de layout padrão associado.
+Os tipos de layouts no swing, são: FlowLayout, BorderLayout, GridLayout, BoxLayout e GridBagLayout.
+
+5) Como é possível fazer a validação de entrada de dados em campos de texto?
+R: Este é um método que usa um componente Swing para entrada de dados. Logo seu retorno será em texto. Para validadar o retorno deve-se utilizar o isEmpty().
+
+6) Pesquise e descreva três principais características entre a biblioteca Swing, a biblioteca AWT (Abstract Window Toolkit) e o JavaFX? 
+R: Biblioteca Swing: Além de seus próprios componentes, esse pacote possui quase todos os componentes que já existiam no pacote AWT, porém com uma interface gráfica mais evoluida e com maiores efeitos. Os componentes Swing começam com a letra "J", assim um botão que no AWT se denomina Button, no Swing é JButton. Como dito antes, o pacote Swing possui componentes próprios, esses componentes estão entre 1. telas mais aperfeiçoadas (JTabbedPane, JToolBar, JInternalFrame, JColorChooser...), 2. novos botões e campos para dispor as informações na aplicação (JFormattedTextField, JProgressBar, JSpeener, JPasswordField, JTextPane, JTextArea...) e 3. menus (JMenuBar, JMenu...).
+Biblioteca AWT (Abstract Window Toolkit): 1. janelas (Container, Frame, Panel...), alguns botões (Button, RadioButton, CheckBox...), 2. Rótulos (Label), 3. campos de texto (TextField) entre outros componentes.
+JavaFX: integra 1. gráficos de vetor, 2. recursos Web de animação, áudio e vídeo em uma aplicação rica, interativa e imersiva, e 3. estende a tecnologia Java permitindo o uso de qualquer biblioteca Java em uma aplicação JavaFX.
+
+7. Pesquise o conceito de “Look & Feel” dentro do contexto de interfaces gráficas com Swing no Java.
+R: Os look-and-feels, são objetos que ao serem configurados na aplicação, modificam o modo como o usuário irá interagir ou visualizar a interface gráfica da mesma.
+O pacote javax.swing possui um conjunto de ferramentas que permite ao programador definir qual será o look-and-feel da aplicação. Caso não defina nenhum, o próprio swing cuidará de selecioná-lo. Em seguida, essa string é passada para o UIManager através de setLookAndFeel, dentro de um bloco try (necessário, pois o mesmo lança uma série de exceções).
