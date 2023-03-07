@@ -46,7 +46,7 @@ Biblioteca AWT (Abstract Window Toolkit): 1. janelas (Container, Frame, Panel...
 JavaFX: integra 1. gráficos de vetor, 2. recursos Web de animação, áudio e vídeo em uma aplicação rica, interativa e imersiva, e 
 3. estende a tecnologia Java permitindo o uso de qualquer biblioteca Java em uma aplicação JavaFX.
 
-7. Pesquise o conceito de “Look & Feel” dentro do contexto de interfaces gráficas com Swing no Java.
+7. Pesquise o conceito de “Look & Feel” dentro do contexto de interfaces gráficas com Swing no Java. Procure alguns exemplos de temas, como o tema FlatLaf.
 R: Os look-and-feels, são objetos que ao serem configurados na aplicação, modificam o modo como o usuário 
 irá interagir ou visualizar a interface gráfica da mesma. O pacote javax.swing possui um conjunto de ferramentas 
 que permite ao programador definir qual será o look-and-feel da aplicação. Caso não defina nenhum, o próprio swing 
