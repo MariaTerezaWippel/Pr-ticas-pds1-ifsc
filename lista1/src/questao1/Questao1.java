@@ -1,4 +1,6 @@
-package praticapds;
+package questao1;
+
+import javax.swing.JOptionPane;
 
 //1. Faça um programa que lê precoLitro (tipo Double) e quantidadeLitros (tipo Integer) usando o método showInputDialog 
 //da classe JOptionPane. Crie um método (função) que calcule o totalPagamento e use ele para calcular os valores inseridos.
@@ -7,10 +9,20 @@ package praticapds;
 //da classe JOptionPane em um for array. Em seguida, exiba todos os dados de uma só vez utilizando o método showMessageDialog 
 //da classe JOptionPane.
 
-	public class questoes{
+	public class Questao1{
 	
-	public static void main(String[] args){
-	
-	}
-	
+	public static void main1(String[] args){
+
+			double precoLitro = Double.parseDouble(JOptionPane.showInputDialog("Preço do Litro: "));
+			int quantidadeLitros = Integer.parseInt(JOptionPane.showInputDialog("Quantidade de litros: "));
+
+			double totalPagamento = calcularTotalPagamento(precoLitro, quantidadeLitros);
+
+			JOptionPane.showMessageDialog(null, "Total a pagar: R$ " + totalPagamento);
+		}
+
+		public static double calcularTotalPagamento(double precoLitro, int quantidadeLitros) {
+			return precoLitro * quantidadeLitros;
+			
+		}
 }
