@@ -8,17 +8,15 @@ public class Questao4 extends JFrame implements ActionListener {
     private JButton button1, button2, button3, button4;
 
     public Questao4() {
-        super("Calculadora");
+        super("Calculo");
         setLayout(new FlowLayout());
         
-        // cria os campos de texto
         field1 = new JTextField(10);
         add(field1);
         
         field2 = new JTextField(10);
         add(field2);
         
-        // cria os botões
         button1 = new JButton("+");
         button1.addActionListener(this);
         add(button1);
@@ -45,7 +43,6 @@ public class Questao4 extends JFrame implements ActionListener {
         double num2 = Double.parseDouble(field2.getText());
         double result = 0;
         
-        // verifica qual botão foi clicado
         if (e.getSource() == button1) {
             result = num1 + num2;
         } else if (e.getSource() == button2) {
@@ -56,13 +53,13 @@ public class Questao4 extends JFrame implements ActionListener {
             result = num1 * num2;
         }
         
-        // exibe o resultado em uma caixa de diálogo
-        JOptionPane.showMessageDialog(null, "Resultado: " + result);
+        JOptionPane.showMessageDialog(null, "Resultado: /n" + result);
     }
 
     public static void main(String[] args) {
         new Questao4();
     }
+    
 }
 	
 	
